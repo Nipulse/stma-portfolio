@@ -5,9 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="Description" content="Enter your description here" />
+    <meta name="Description" content="Troy Abrigo is an e-commerce Front End Developer specializing in Shopify, BigCommerce, and custom web experiences." />
 
-    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="./assets/css/style.css">
@@ -30,13 +29,13 @@
 
 <body>
 
-    <div class="entry-container text-center" id="home" data-aos="zoom-out-up" data-aos-duration="1500">
+    <div class="entry-container text-center" id="home" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
         <div class="entry-container-content">
             <div>       
                 <span>Hello, I'm </span> <span class="highlight">Troy Abrigo.</span>
             </div>
             <div>
-                <p>I'm a e-commerce Front End Developer </p>
+                <p>I'm a Shopify Web Developer </p>
             </div>
             <a href="#aboutme">
                 <div class="entry-link">
@@ -48,13 +47,11 @@
         </div>
     </div>
 
-    <div class="hider home-text">
-        <h1>into the web with Troy</h1>
-    </div>
-
-    <nav class="navbar fixed-top navbar-expand-lg navbar-dark" style="background-color: #424242;">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark" style="background-color: rgba(19, 27, 80, 0.97); backdrop-filter: blur(8px);">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">Troy Abrigo's Space</a>
+            <a class="navbar-brand" href="#">
+                <img src="assets/img/mylogo.png" alt="Troy Abrigo Developer" style="height: 38px; width: auto;">
+            </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -67,20 +64,16 @@
                         <a class="nav-link" href="#aboutme">About Me</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" href="#myprojects">My Projects</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#contact">Contact</a>
                     </li>
-                    <li class="nav-item dropdown hider">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Dropdown link
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.linkedin.com/in/troy-abrigo/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
                     </li>
                 </ul>
             </div>
@@ -88,12 +81,9 @@
     </nav>
 
     <div id="aboutme">
-        <div class="aboutme-content no-gutters" data-aos="zoom-in" data-aos-duration="1000">
+        <div class="aboutme-content" data-aos="fade-up" data-aos-duration="800" data-aos-once="true">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <div class="my-projects-link">
-                        <a href="#myprojects"><h2>MY PROJECTS <i class="fas fa-arrow-circle-up" style="transform: rotate(180deg);"></i></h2></a>
-                    </div>
                     <h1>
                         Hello!
                     </h1>
@@ -254,25 +244,126 @@
                     </td>
                 </tr>
             </table>
+            <div class="my-projects-link mt-4">
+                <a href="#skills">
+                    <span class="link-text">My Skills</span>
+                    <i class="fas fa-arrow-down"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Skills Section -->
+    <div id="skills">
+        <div class="skills-wrapper" data-aos="fade-up" data-aos-duration="800" data-aos-once="true">
+            <h2 class="skills-title">Tech Stack &amp; Tools</h2>
+
+            <div class="skills-category">
+                <h6>E-Commerce</h6>
+                <div class="skills-grid">
+                    <div class="skill-item"><img src="https://cdn.simpleicons.org/shopify/FAEDF0" alt="Shopify"><span>Shopify</span></div>
+                    <div class="skill-item"><img src="https://cdn.simpleicons.org/shopify/FAEDF0" alt="Shopify Plus"><span>Shopify Plus</span></div>
+                    <div class="skill-item"><img src="https://cdn.simpleicons.org/bigcommerce/FAEDF0" alt="BigCommerce"><span>BigCommerce</span></div>
+                </div>
+            </div>
+
+            <div class="skills-category">
+                <h6>Web Development</h6>
+                <div class="skills-grid">
+                    <div class="skill-item"><img src="https://cdn.simpleicons.org/html5/FAEDF0" alt="HTML5"><span>HTML5</span></div>
+                    <div class="skill-item"><img src="https://cdn.simpleicons.org/csswizardry/FAEDF0" alt="CSS3"><span>CSS3</span></div>
+                    <div class="skill-item"><img src="https://cdn.simpleicons.org/javascript/FAEDF0" alt="JavaScript"><span>JavaScript</span></div>
+                    <div class="skill-item"><img src="https://cdn.simpleicons.org/jquery/FAEDF0" alt="jQuery"><span>jQuery</span></div>
+                    <div class="skill-item"><img src="https://cdn.simpleicons.org/bootstrap/FAEDF0" alt="Bootstrap"><span>Bootstrap</span></div>
+                    <div class="skill-item"><img src="https://cdn.simpleicons.org/php/FAEDF0" alt="PHP"><span>PHP</span></div>
+                    <div class="skill-item"><img src="https://cdn.simpleicons.org/git/FAEDF0" alt="Git"><span>Git</span></div>
+                    <div class="skill-item"><img src="https://cdn.simpleicons.org/github/FAEDF0" alt="GitHub"><span>GitHub</span></div>
+                </div>
+            </div>
+
+            <div class="skills-category">
+                <h6>Design</h6>
+                <div class="skills-grid">
+                    <div class="skill-item"><img src="https://cdn.simpleicons.org/figma/FAEDF0" alt="Figma"><span>Figma</span></div>
+                    <div class="skill-item"><img src="assets/img/icon-generic.svg" alt="Adobe XD" style="opacity:0.4;"><span>Adobe XD</span></div>
+                    <div class="skill-item"><img src="https://cdn.simpleicons.org/adobephotoshop/FAEDF0" alt="Ps"><span>Photoshop</span></div>
+                    <div class="skill-item"><img src="https://cdn.simpleicons.org/adobeillustrator/FAEDF0" alt="Ai"><span>Illustrator</span></div>
+                    <div class="skill-item"><img src="https://cdn.simpleicons.org/adobepremierepro/FAEDF0" alt="Pr"><span>Premiere Pro</span></div>
+                </div>
+            </div>
+
+            <div class="skills-category">
+                <h6>Automation &amp; Integrations</h6>
+                <div class="skills-grid">
+                    <div class="skill-item"><img src="https://cdn.simpleicons.org/shopify/FAEDF0" alt="Shopify Flow"><span>Shopify Flow</span></div>
+                    <div class="skill-item"><img src="https://cdn.simpleicons.org/zapier/FAEDF0" alt="Zapier"><span>Zapier</span></div>
+                    <div class="skill-item"><img src="https://cdn.simpleicons.org/make/FAEDF0" alt="Make"><span>Make.com</span></div>
+                    <div class="skill-item"><img src="https://cdn.simpleicons.org/googlesheets/FAEDF0" alt="GAS"><span>Apps Script</span></div>
+                </div>
+            </div>
+
+            <div class="skills-category">
+                <h6>Platforms &amp; Tools</h6>
+                <div class="skills-grid">
+                    <div class="skill-item"><img src="https://cdn.simpleicons.org/wordpress/FAEDF0" alt="WP"><span>WordPress</span></div>
+                    <div class="skill-item"><img src="assets/img/icon-generic.svg" alt="Slack"><span>Slack</span></div>
+                    <div class="skill-item"><img src="assets/img/icon-generic.svg" alt="Klaviyo"><span>Klaviyo</span></div>
+                    <div class="skill-item"><img src="assets/img/icon-generic.svg" alt="Gadget"><span>Gadget</span></div>
+                    <div class="skill-item"><img src="https://cdn.simpleicons.org/asana/FAEDF0" alt="Asana"><span>Asana</span></div>
+                    <div class="skill-item"><img src="https://cdn.simpleicons.org/clickup/FAEDF0" alt="CU"><span>ClickUp</span></div>
+                    <div class="skill-item"><img src="https://cdn.simpleicons.org/pipedrive/FAEDF0" alt="PD"><span>Pipedrive</span></div>
+                    <div class="skill-item"><img src="https://cdn.simpleicons.org/hubspot/FAEDF0" alt="HS"><span>HubSpot</span></div>
+                </div>
+            </div>
+            <div class="my-projects-link mt-4">
+                <a href="#myprojects">
+                    <span class="link-text">My Projects</span>
+                    <i class="fas fa-arrow-down"></i>
+                </a>
+            </div>
         </div>
     </div>
 
     <div id="myprojects">
-      <div class="container myprojects-content">
-            <div class="row text-center" data-aos="fade-in" data-aos-duration="1000">
-                <div class="col-lg-4 col-md-4 col-sm-4 col-4 proj-img-container bounce_button" data-bs-toggle="modal" data-bs-target="#rbs">
-                    <img src="https://royalbasketballschool.com/cdn/shop/files/RBS_New_Logo.png?v=1711488240" class="img-fluid  " alt="">
-                    <span>Royal Basketball School</span>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-4 col-4 proj-img-container bounce_button" data-bs-toggle="modal" data-bs-target="#fifty">
-                    <img src="https://thirteenfiftyapparel.com/cdn/shop/files/logoblk.png?v=1641224083&width=220" class="img-thumbnail" alt="">
-                    <span>13Fifty Apparel</span>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-4 col-4 proj-img-container bounce_button" data-bs-toggle="modal" data-bs-target="#hcd">
-                    <img src="https://cdn11.bigcommerce.com/s-otle45p56l/images/stencil/240x50/logo-1_1622601046__16710.original.png" class="img-thumbnail" alt="">
-                    <span>Go Headcase Designs</span>
+      <div class="skills-wrapper" data-aos="fade-up" data-aos-duration="800" data-aos-once="true">
+            <h2 class="skills-title">Here are some of my projects..</h2>
+
+            <div class="skills-category">
+                <h6>Shopify</h6>
+                <div class="skills-grid">
+                    <div class="proj-item bounce_button" data-bs-toggle="modal" data-bs-target="#proj4">
+                        <img src="https://koicbd.com/cdn/shop/files/new-logo-black-small-2_1691123203__37839.webp?v=1762865797&width=200" class="bg-white rounded" alt="KoiCBD">
+                        <span>KoiCBD</span>
+                    </div>
+                    <div class="proj-item bounce_button" data-bs-toggle="modal" data-bs-target="#proj5">
+                        <img src="https://pwrstoragesolutions.com/cdn/shop/files/PWRSS_Logo_R_165x@2x.png?v=1739904707" class="bg-white rounded p-1" alt="PWRSS">
+                        <span>Power Storage</span>
+                    </div>
+                    <div class="proj-item bounce_button" data-bs-toggle="modal" data-bs-target="#proj6">
+                        <img src="https://www.barnettinternational.com/cdn/shop/files/Barnett_Logo_Horizontal__Tagline.png?height=96&v=1754491004" class="bg-white rounded p-1" alt="Barnett International">
+                        <span>Barnett Intl.</span>
+                    </div>
+                    <div class="proj-item bounce_button" data-bs-toggle="modal" data-bs-target="#rbs">
+                        <img src="https://royalbasketballschool.com/cdn/shop/files/RBS_New_Logo.png?v=1711488240" class="bg-white rounded p-1" alt="Royal Basketball School">
+                        <span>RBS</span>
+                    </div>
+                    <div class="proj-item bounce_button" data-bs-toggle="modal" data-bs-target="#fifty">
+                        <img src="https://thirteenfiftyapparel.com/cdn/shop/files/logoblk.png?v=1641224083&width=220" class="bg-white rounded p-1" alt="13Fifty Apparel">
+                        <span>13Fifty Apparel</span>
+                    </div>
                 </div>
             </div>
+
+            <div class="skills-category">
+                <h6>BigCommerce</h6>
+                <div class="skills-grid">
+                    <div class="proj-item bounce_button" data-bs-toggle="modal" data-bs-target="#hcd">
+                        <img src="https://cdn11.bigcommerce.com/s-otle45p56l/images/stencil/240x50/logo-1_1622601046__16710.original.png" class="bg-white rounded p-1" alt="Go Headcase Designs">
+                        <span>Go Headcase</span>
+                    </div>
+                </div>
+            </div>
+
             <a href="#contact">
                 <div class="mt-3 text-center" data-aos="fade-in" data-aos-delay="300">
                     Contact Page <i class="fas fa-arrow-circle-down"></i>
@@ -282,11 +373,11 @@
     </div>
 
     <!-- RBS Modal -->
-    <div class="modal fade text-dark" id="rbs" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-xl">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Royal Basketball School</h5>
+    <div class="modal fade text-dark" id="rbs" tabindex="-1" aria-labelledby="rbsModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content" style="border: none;">
+                <div class="modal-header" style="border: none;">
+                    <h5 class="modal-title" id="rbsModalLabel">Royal Basketball School</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
@@ -294,7 +385,9 @@
                         <div class="col-lg-6 modal-bg" style="background: url(assets/img/rbs.png);">
                         </div>
                         <div class="col-lg-6 modal-desc">
-                            <p>Based on Shopify Platform, this was an already exsisting website when I joined the company. They hired me for a contractual role and my expertise in Shopify website development.</p>
+                            <p>Based on Shopify Platform, his was an already existing website when I joined the company. They hired me for a contractual role and my expertise in Shopify website development.</p>
+
+                            <span><b>About them:</b></span>
                             <p><i>
                                 "With convenient LA locations and expert coaches, we provide
                                 opportunities for children of the next generation to stay active,
@@ -305,30 +398,30 @@
 
                             <ul>
                                 <li>Increased Google Page Speed Insights Score by 30%</li>
-                                <li>Created Custom Froms with Google Recaptcha and Honeypot</li>
+                                <li>Created Custom Forms with Google Recaptcha and Honeypot</li>
                                 <li>Created Custom Easy to Edit Blocks and Section</li>
                                 <li>Created Custom Event Page</li>
-                                <li>Created Staff Webstite with Advanced Statistics using Google Sites and Looker Studio</li>
+                                <li>Created Staff Website with Advanced Statistics using Google Sites and Looker Studio</li>
                             </ul>
                             <div>
-                                <a name="View Website" id="" class="btn btn-dark" href="https://royalbasketballschool.com/" 
-                                target="https://royalbasketballschool.com/" role="button">View Website</a>
+                                <a name="View Website" id="" class="btn btn-dark" href="https://royalbasketballschool.com/"
+                                target="_blank" rel="noopener noreferrer" role="button">View Website</a>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="modal-footer">
+                <div class="modal-footer" style="border: none;">
                 </div>
             </div>
         </div>
     </div>
 
     <!-- 13 Fifty Modal -->
-    <div class="modal fade text-dark" id="fifty" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-xl">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">13Fifty Apparel</h5>
+    <div class="modal fade text-dark" id="fifty" tabindex="-1" aria-labelledby="fiftyModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content" style="border: none;">
+                <div class="modal-header" style="border: none;">
+                    <h5 class="modal-title" id="fiftyModalLabel">13Fifty Apparel</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
@@ -336,7 +429,9 @@
                         <div class="col-lg-6 modal-bg" style="background: url(assets/img/13.png);">
                         </div>
                         <div class="col-lg-6 modal-desc">
-                            <p>Based on Shopify Platform, built from a paid theme me another developer joined forces to enhance and make the theme up to client spec.</p>
+                            <p>Based on Shopify Platform, built from a paid theme — I joined forces with another developer to enhance it and make the theme up to client spec.</p>
+
+                            <span><b>About them:</b></span>
                             <p><i>
                                 "At 13 Fifty Apparel, we embody the spirit of service and patriotism. Based in Atlanta, our brand extends beyond tactical law enforcement gear to embrace a lifestyle of resilience and pride shared by American patriots. We honor those who protect and serve by crafting high-quality, durable clothing that caters to both the demanding life of law enforcement professionals and the everyday citizen who stands by our heroes."
                             </i></p>
@@ -344,15 +439,15 @@
                             <span><b>Key features:</b></span>
 
                             <ul>
-                                <li>Applied SEO and Best Pratices</li>
+                                <li>Applied SEO and Best Practices</li>
                                 <li>Created Reusable Pagefly Sections</li>
                                 <li>Scheduled timed theme activation for special events (e.g Breast Cancer Awareness Month)</li>
                                 <li>Configured Integrations using Zapier</li>
                                 <li>Mega Nav Code Customization</li>
                             </ul>
                             <div>
-                                <a name="View Website" id="" class="btn btn-dark" href="https://thirteenfiftyapparel.com/" 
-                                target="https://thirteenfiftyapparel.com/" role="button">View Website</a>
+                                <a name="View Website" id="" class="btn btn-dark" href="https://thirteenfiftyapparel.com/"
+                                target="_blank" rel="noopener noreferrer" role="button">View Website</a>
                             </div>
                         </div>
                     </div>
@@ -364,11 +459,11 @@
     </div>
 
     <!-- HCD Modal -->
-    <div class="modal fade text-dark" id="hcd" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-xl">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Go Headcase Designs</h5>
+    <div class="modal fade text-dark" id="hcd" tabindex="-1" aria-labelledby="hcdModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content" style="border: none;">
+                <div class="modal-header" style="border: none;">
+                    <h5 class="modal-title" id="hcdModalLabel">Go Headcase Designs</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
@@ -384,6 +479,11 @@
                                 I also spearheaded a team with a goal to input products in-store, by year-end and with daily quotas.
                             </p>
 
+                            <span><b>About them:</b></span>
+                            
+                            <p><i>
+                                "Since Head Case Designs’ inception in 2011, we have taken that idea and became one of License Global’s leading licensees. With a team of dedicated artists, we’ve been able to give you the choice of having your favorite sports team, favorite tv show and even your favorite musicians as the elegant designs for your case. The possibilities are endless when 95% of the market is supported by our products."
+                            </i></p>
                             <span><b>Key Features:</b></span>
 
                             <ul>
@@ -393,8 +493,8 @@
                                 <li>Custom Category Page</li>
                             </ul>
                             <div>
-                                <a name="View Website" id="" class="btn btn-dark" href="https://goheadcase.com/" 
-                                target="https://goheadcase.com/" role="button">View Website</a>
+                                <a name="View Website" id="" class="btn btn-dark" href="https://goheadcase.com/"
+                                target="_blank" rel="noopener noreferrer" role="button">View Website</a>
                             </div>
                         </div>
                     </div>
@@ -405,7 +505,109 @@
         </div>
     </div>
 
-    <div class="entry-container text-center" id="contact" data-aos="zoom-out-up" data-aos-duration="1500">
+    <!-- Koi CBD modal -->
+    <div class="modal fade text-dark" id="proj4" tabindex="-1" aria-labelledby="proj4ModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content" style="border: none;">
+                <div class="modal-header" style="border: none;">
+                    <h5 class="modal-title" id="proj4ModalLabel">KoiCBD</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-lg-6 modal-bg" style="background: url(/assets/img/koicbd.png); background-position: top !important; display:flex; align-items:center; justify-content:center; min-height:300px;">
+                        </div>
+                        <div class="col-lg-6 modal-desc">
+                            <p>Shopify Plus Platform, As the led developer, I had to asses the requirements and timeline for the project manager. Became an integral part of the migration of BC to Shopify, inluding order history, customers and products (including custom data)
+                            </p>
+                            <span><b>About them:</b></span>
+                            <p><i>"Our mission is to deliver the exact experience you seek for every situation, every single time. With Koi, you’ll find the full spectrum of benefits our natural products have to offer."</i></p>
+
+                            <span><b>Key Features:</b></span>
+                            <ul>
+                                <li>Checkout State Blocking</li>
+                                <li>Highly customized section and product cards</li>
+                                <li>Product Subscription</li>
+                                <li>Klaviyo Metrics via Shopify API</li>
+                            </ul>
+                            <div>
+                                <a class="btn btn-dark" href="https://koicbd.com/" target="_blank" rel="noopener noreferrer" role="button">View Website</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer" style="border: none;"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- PWRSS Modal -->
+    <div class="modal fade text-dark" id="proj5" tabindex="-1" aria-labelledby="proj5ModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content" style="border: none;">
+                <div class="modal-header" style="border: none;">
+                    <h5 class="modal-title" id="proj5ModalLabel">Power Storage Solutions</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-lg-6 modal-bg" style="background: url(/assets/img/pwrss.png); background-position: top Im !important; align-items:center; justify-content:center; min-height:300px;">
+                        </div>
+                        <div class="col-lg-6 modal-desc">
+                            <p>Shopify plus platform, this was already bulit I was tasked with feature addition and maintain pages, and also create a custom pages in Pagefly and with mapped fields from ERP of Acu=maticata which were stored in the metafields</p>
+                            <span><b>About them:</b></span>
+                            <p><em>"At Power Storage Solutions, we provide comprehensive battery storage systems and energy storage solutions that fuel progress and reliability. As your single-source provider for power systems, we specialize in DC power, battery technologies, and energy storage devices tailored to mission-critical operations."</em></p>
+                            <span><b>Key Features:</b></span>
+                            <ul>
+                                <li>Searchanize integration (filters, product grids, custom search)</li>
+                                <li>Custom Pricing and Quoting</li>
+                                <li>Highly customized pdp sectionsd with mapping acumatica> metafields > pdp sections</li>
+                            </ul>
+                            <div>
+                                <a class="btn btn-dark" href="https://pwrstoragesolutions.com/" target="_blank" rel="noopener noreferrer" role="button">View Website</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer" style="border: none;"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Barnett Modal -->
+    <div class="modal fade text-dark" id="proj6" tabindex="-1" aria-labelledby="proj6ModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content" style="border: none;">
+                <div class="modal-header" style="border: none;">
+                    <h5 class="modal-title" id="proj6ModalLabel">Barnett International</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-lg-6 modal-bg" style="background: url(/assets/img/barnett.png); background-position: top !important; display:flex; align-items:center; justify-content:center; min-height:300px;">
+                        </div>
+                        <div class="col-lg-6 modal-desc">
+                            <p>Another Shopify Project which I spearheaded, it was a challenges because the layout requirement was not native to Shipify and I had to highly customize it based on the client needs. Also courses were not as easy as singular products we had a lot of customization in collections and PDPs</p>
+                            <span><b>About them:</b></span>
+                            <p><em>"For over 40 years, Barnett International has been a trusted leader in clinical research training and consulting. We empower professionals, organizations, and institutions with the knowledge, skills, and credentials needed to navigate the evolving landscape of clinical trials."</em></p>
+                            <span><b>Key Features:</b></span>
+                            <ul>
+                                <li>Highly customized collection pages and pDP</li>
+                                <li>Variant selction on collection product grid and alos adtional variant selction of antoher course in PDP</li>
+                                <li>Custom collection sorting using newesr published date</li>
+                            </ul>
+                            <div>
+                                <a class="btn btn-dark" href="https://www.barnettinternational.com/" target="_blank" rel="noopener noreferrer" role="button">View Website</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer" style="border: none;"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="entry-container text-center" id="contact" data-aos="fade-up" data-aos-duration="800" data-aos-once="true">
         <div class="entry-container-content">
             <div>       
                 <span>You can reach me at<br></span> <span><a class="highlight" href="mailto:steventroyabrigo@gmail.com">steventroyabrigo@gmail.com</a></span>
@@ -413,6 +615,11 @@
             <a href="mailto:steventroyabrigo@gmail.com">
                 <div class="entry-link mt-3">
                     Contact Me <svg xmlns="http://www.w3.org/2000/svg" height="20" width="20" fill="white" viewBox="0 0 512 512"><!--!Font Awesome Free 6.7.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M64 112c-8.8 0-16 7.2-16 16l0 22.1L220.5 291.7c20.7 17 50.4 17 71.1 0L464 150.1l0-22.1c0-8.8-7.2-16-16-16L64 112zM48 212.2L48 384c0 8.8 7.2 16 16 16l384 0c8.8 0 16-7.2 16-16l0-171.8L322 328.8c-38.4 31.5-93.7 31.5-132 0L48 212.2zM0 128C0 92.7 28.7 64 64 64l384 0c35.3 0 64 28.7 64 64l0 256c0 35.3-28.7 64-64 64L64 448c-35.3 0-64-28.7-64-64L0 128z"/></svg>
+                </div>
+            </a>
+            <a href="https://www.linkedin.com/in/troy-abrigo/" target="_blank" rel="noopener noreferrer">
+                <div class="entry-link mt-3">
+                    LinkedIn <i class="fab fa-linkedin"></i>
                 </div>
             </a>
         </div>
